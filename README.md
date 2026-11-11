@@ -71,25 +71,25 @@ This project focuses on practical experience with AWS cloud infrastructure, Linu
 
 **EC2 Instance Screenshot**
 
-![EC2 Instance](screenshots/instance.png)
+![EC2 Instance](Screenshots/01.instance.png)
 
 ---
 
 ### Step 2: Connect to EC2 Using SSH
 
-Connected to the Ubuntu EC2 instance from Windows PowerShell using the downloaded private key (`practical.pem` file).
+Connected to the Ubuntu EC2 instance from Windows PowerShell using the downloaded private key (`.pem` file).
 
 **SSH Command:**
 
 ```bash
-ssh -i .\Downloads\practical.pem ubuntu@YOUR_PUBLIC_IP
+ssh -i <YOUR_KEY_PAIR.pem> ubuntu@YOUR_PUBLIC_IP
 ```
 
 After successful authentication, accessed the remote Ubuntu server.
 
 **SSH Connection Screenshot**
 
-![SSH Connection](screenshots/ssh-connection.png)
+![SSH Connection](Screenshots/02.ssh-connection.png)
 
 ---
 
@@ -109,7 +109,7 @@ sudo systemctl status nginx
 
 **Nginx Installation Screenshot**
 
-![Nginx Installation](screenshots/nginx-installation.png)
+![Nginx Installation](Screenshots/03.nginx-install.png.png)
 
 ---
 
@@ -126,7 +126,7 @@ sudo nano style.css
 
 **Website Files Setup Screenshot**
 
-![Website Files](screenshots/website-files.png)
+![Website Files](Screenshots/04.website.png)
 
 ---
 
@@ -146,7 +146,7 @@ Successfully accessed the static portfolio website through a web browser.
 
 **Website Output Screenshot**
 
-![Website Output](screenshots/website-output.png)
+![Website Output](Screenshots/05.website-output.png)
 
 ---
 
